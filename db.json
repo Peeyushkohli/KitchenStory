@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "sing-in": [
+    {
+      "emailId": "vasuda@gmail.com",
+      "mobileno": "342356676",
+      "password": "3pass123456",
+      "id": 1
+    },
+    {
+      "emailId": "kapil@gmail.coom",
+      "mobileno": "12345567",
+      "password": "pass123456",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

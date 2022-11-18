@@ -1,0 +1,17 @@
+h1
+
+{
+    color :blue
+
+}
+a {
+    color :aliceblue
+}
+
+
+.form-control {
+
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 400px;
+}

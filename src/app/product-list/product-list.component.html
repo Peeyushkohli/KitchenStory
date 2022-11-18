@@ -1,0 +1,55 @@
+
+ <app-header></app-header>
+
+
+ <div class ="cart-top container-fluid "></div>
+
+  <div class = "container">
+    <div class = "row">
+    <ng-container *ngFor="let p of productList | filter :searchKey :'category'">
+
+      <div class ="card col-md-3">
+        <img src="{{p.imageUrl}}" alt="">
+        <h5>{{p.productname}}</h5>
+        <p><strong>Category></strong>{{p.category}}</p>
+        <p><strong>Price Rs.</strong>{{p.price}}</p>
+        <p><strong>Quantity </strong>{{p.quantity}}</p>
+        <p><strong>Total Rs.</strong>{{p.total}}</p>
+        
+        
+
+        <button class="btn btn-primary"(click)="addToCart(p)" >Add to Cart</button>
+
+
+
+      </div>
+    </ng-container>
+    
+
+  </div>
+                
+
+
+
+
+  
+    
+  
+
+  
+  
+
+
+</div>
+
+
+
+
+
+
+       
+
+      
+
+  
+

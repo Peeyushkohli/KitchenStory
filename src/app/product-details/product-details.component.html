@@ -1,0 +1,21 @@
+<app-header></app-header>
+<h2>Product Details</h2>
+
+
+
+<div *ngIf  =  "kproduct">
+  <h3>{{ kproduct.productname }}</h3>
+  <h4>{{ kproduct.price | currency }}</h4>
+  <p>{{ kproduct.category }}</p>
+
+</div>
+
+
+
+
+
+<button type="button" (click) = "addToCart()">Buy</button>&nbsp;
+<button type="button" [routerLink]="'/'">Back To List</button>
+
+
+

@@ -1,0 +1,42 @@
+<div  class = "container">
+    <div class="row">
+
+        <div class="class md-6">
+
+            <div class="card">
+
+                <div class="class-center">
+
+                    <h1>Kitchen App Sign in  </h1>
+
+    </div>
+    <form  [formGroup]="registerForm" (ngSubmit)="signUp()">
+        <div class="mb-3" >
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" formControlName="emailId"  aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3" class="form-group">
+            <label  class="form-label">mobileNumber</label>
+            <input type="text" class="form-control" formControlName="mobileno"  aria-describedby="emailHelp">
+            </div>
+
+
+
+        <div class="mb-3" class="form-group">
+          <label  class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password" >
+        </div>
+        
+        <button type="submit" class="btn btn-primary"  >Register </button>
+      </form>
+
+                    
+                                        <a routerLink = "/login"> Already registered ? Click to Log In </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+    

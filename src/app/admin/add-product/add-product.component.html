@@ -1,0 +1,82 @@
+<div class="row">
+
+    <h1 >Add New Product</h1>
+</div>
+<div class ="col-md-6" offset="3">
+
+    <table class="table mt-4">
+        <thead>
+
+            <tr>
+                    <th scope ="col">Product Name</th>
+                    <th scope ="col">Category</th>
+                    <th scope ="col">Available Qty</th> 
+                    <th scope ="col">Price</th>
+                    <th scope ="col">Image Name</th>
+                    <td>
+                        <button class="btn btn-info">Edit</button>
+                        
+                        <button class="btn btn-info">Del</button>
+                    </td>
+                    
+
+
+            </tr>
+        
+        </thead>
+
+
+
+    </table>
+    <tbody>
+
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Add Product
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Add Product</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
+            <form>
+                <fieldset disabled>
+                  <legend>Product name </legend>
+                  <div class="mb-3">
+                    <label for="disabledTextInput" class="form-label"> input</label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                  </div>
+                  <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                    <select id="disabledSelect" class="form-select">
+                      <option>Disabled select</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" >
+                      <label class="form-check-label" for="disabledFieldsetCheck">
+                        Can't check this
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
